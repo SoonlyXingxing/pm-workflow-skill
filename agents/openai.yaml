@@ -1,0 +1,4 @@
+interface:
+  display_name: "PM Workflow"
+  short_description: "Auto-prompt PM notes, calibration, and PRD preflight"
+  default_prompt: "Use $pm-workflow when product or design decisions are discussed: ask whether to record decisions after the discussion, ask whether to calibrate observations after every three recorded notes, and run record/calibration preflight before drafting PRDs. Never rewrite observations during digest until grouped findings are shown and confirmed."
